@@ -1,8 +1,4 @@
-#!/bin/bash
-
-
-
-
+#!/usr/bin/env bash
 
   echo -e " _______   _______   ___  ___  _____  __ "
 echo  -e " / ___/ /  / __/ _ | / _ \/ _ )/  _/ |/ / "
@@ -55,7 +51,7 @@ sudo rm -rf /var/tmp/*
 echo ""
 echo ""
 echo "[+] Limpando logs (access.log)"
-## rm -rf /var/log/squid/*
+rm -rf /var/log/squid/*
 echo ""
 echo ""
 echo "[+] Procurando arquivos corrompidos"
@@ -100,8 +96,8 @@ sudo apt-get autoremove -y
 echo ""
 echo ""
 echo "[+] Fazendo uma limpeza da memória cache"
-# echo 3 > /proc/sys/vm/drop_caches
-# sysctl -w vm.drop_caches=3
+echo 3 > /proc/sys/vm/drop_caches
+sysctl -w vm.drop_caches=3
 echo ""
 echo ""
 echo "[+] Reparando pacotes quebrados durante a atualização"
@@ -114,10 +110,10 @@ echo "                     _______   _______   ___  ___  _____  __ "
 echo "                     / ___/ /  / __/ _ | / _ \/ _ )/  _/ |/ /"
 echo "                    / /__/ /__/ _// __ |/ , _/ _  |/ //    /"
 echo "                    \___/____/___/_/ |_/_/|_/____/___/_/|_/ "
-echo -e $"                             linux cleaning tool  "
+echo -e $"                             linux cleaning tool  "  
 echo -e                                  "V-1.1-Cripto"
 echo ''
-echo -e $lightgreen'-- -- +=[ 2017-2019 | twitter.com/oandersonbsilva | @StarkSec '
+echo -e $lightgreen'-- -- +=[ 2017-2019 | twitter.com/oandersonbsilva |@StarkSec '
 echo -e $lightgreen'-- -- +=[ Author: Anderson.B Silva < Cripto >  ]=+ -- -- '
 echo ""
 echo -e $BlueF "CLEARBIN REALIZOU:"
