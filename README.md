@@ -1,12 +1,19 @@
+[![Versão](https://img.shields.io/badge/vers%C3%A3o-1.1-sucecess.svg)](https://github.com/oandersonbsilva/wiresec/blob/master/wiresec.sh)
+[![Plataformas](https://img.shields.io/badge/Plataformas-Linux%20x64%20%7C%20Linux%20x86-inactive.svg)](https://github.com/oandersonbsilva/wiresec)
+[![user](https://img.shields.io/badge/user-ROOT-red.svg)](https://github.com/oandersonbsilva/wiresec)
+
 <img src="https://raw.githubusercontent.com/And3R66/clearbin/master/logo3.png">
 Clearbin is a Developed Tool in Programming with Shell Script, in order to always keep the work environment clean in a simple and easy way! Clearbin performs tasks like: clear cache, search and repair corrupted files,clears logs plus other extremely important functions for your system.
 
-#  installation
+
+Versão Anterior 📦<kbd>V 1.0<kbd> 
+  
+#  installation!
 <ol>
 <li><code>git clone https://github.com/oandersonbsilva/clearbin.git</code></li>
 <li><code>cd clearbin</code></li>
 <li><code>chmod a+x clearbin2.sh</code></li>
-<li><code>sudo ./clearbin2.sh ou sudo su ./clearbin2.sh</code></li>
+<li><code> ./clearbin2.sh </code></li>
 </ol>
 <img src="https://raw.githubusercontent.com/And3R66/clearbin/master/Screenshots/ATUALIZA%C3%87%C3%83O%20.png">
 
